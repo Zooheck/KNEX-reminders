@@ -3,7 +3,7 @@ A list of helpful reminders when creating an API with knex.
 
 
 ## Starting Out
-`npx kinex init` Creates a knexfile.js  
+`npx knex init` Creates a knexfile.js  
 REMEMBER: add `useNullAsDefault: true` to the development dependency of the knex file
 
 ## Making a Migration
