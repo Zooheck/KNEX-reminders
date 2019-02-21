@@ -12,6 +12,6 @@ REMEMBER: add `useNullAsDefault: true` to the development dependency of the knex
 `npx knex migrate:latest` use this to deploy a new migration or after making changes
 
 ## Making Seeds
-`npx knex seed: make 001-yournamehere` to create a new seed  
+`npx knex seed:make 001-yournamehere` to create a new seed  
 REMEMBER TO INCREMENT THE THREE-DIGIT INTEGER BY 1 FOR EVERY NEW SEED  
 `npx knex seed:run` to start up the new seeds  
