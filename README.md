@@ -15,6 +15,7 @@ REMEMBER: add `useNullAsDefault: true` to the development dependency of the knex
 `npx knex seed:make 001-yournamehere` to create a new seed  
 REMEMBER TO INCREMENT THE THREE-DIGIT INTEGER BY 1 FOR EVERY NEW SEED  
 `npx knex seed:run` to start up the new seeds  
-
+## Point environment to Testing
+`npx knex migrate:latest --env=testing`
 ## Point environment to Heroku
 `$ npx knex migrate:latest --env production`
