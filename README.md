@@ -19,3 +19,4 @@ REMEMBER TO INCREMENT THE THREE-DIGIT INTEGER BY 1 FOR EVERY NEW SEED
 `npx knex migrate:latest --env=testing`
 ## Point environment to Heroku
 `$ npx knex migrate:latest --env production`
+`$ npx heroku run knex migrate:latest -a heroku-app-name`
